@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/grey_back"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/user_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Teknoseyir"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/user_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text=" @Teknoseyir"
+                    android:textColor="@color/link"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/durum_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="1 dk önce"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/durum_icerik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:text="GM5 plus d cihazımı servise gönderdim. Ekranda ışık sızdırması, yanma ve çerçevede sorunlar vardı. Çerçevede sorunlar olduğu için kullanıcı hatası deyip 280 TL ücret çıkardılar. Dedim sadece ekranı düzeltin, çerçeve aynı kalsın. Onu da kabul etmediler. Geri istedim cihazı, THH ne başvuracağım artık. THH ne başvururken cihazı da teslim ediyor muyuz, yoksa cihazı inceleyecekleri zaman mı istiyorlar?"/>
+
+    <ImageView
+        android:id="@+id/durum_media"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/comment_like_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:visibility="visible"
+        android:background="@color/grey_back_softer">
+        <LinearLayout
+            android:id="@+id/durum_like_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+
+            android:padding="5dp"
+            android:visibility="visible"
+            android:background="@color/grey_back_softer">
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/like_white_64"/>
+            <TextView
+                android:id="@+id/durum_likes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/durum_comment_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:visibility="visible"
+            android:background="@color/grey_back_softer">
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/comment_white_64"/>
+            <TextView
+                android:id="@+id/durum_comments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

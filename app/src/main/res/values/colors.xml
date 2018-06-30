@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ab1500</color>
+    <color name="colorPrimaryDark">#a01300</color>
+    <color name="colorAccent">#ab1500</color>
+    <color name="gold">#dfa321</color>
+    <color name="white">#fff</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="grey_back">#303030</color>
+    <color name="grey_back_softer">#373737</color>
+    <color name="soft_grey">#727272</color>
+    <color name="hard_grey">#686868</color>
+    <color name="link">#337ab7</color>
+</resources>

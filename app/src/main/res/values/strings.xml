@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Teknoseyir</string>
+
+    <string name="POSTS_URL">https://teknoseyir.com/wp-json/wp/v2/posts/</string>
+    <string name="DURUM_URL">https://teknoseyir.com/wp-json/wp/v2/durum/</string>
+    <string name="INCELEME_URL">https://teknoseyir.com/wp-json/wp/v2/inceleme/</string>
+    <string name="BLOG_URL">https://teknoseyir.com/wp-json/wp/v2/blog/</string>
+    <string name="USER_URL">https://teknoseyir.com/wp-json/wp/v2/users/</string>
+    <string name="MEDIA_URL">https://teknoseyir.com/wp-json/wp/v2/media?parent=</string>
+    <string name="COMMENT_URL">https://teknoseyir.com/wp-json/wp/v2/comments?post=</string>
+</resources>
